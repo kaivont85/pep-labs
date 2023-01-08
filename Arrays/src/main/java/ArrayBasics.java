@@ -38,9 +38,13 @@ public class ArrayBasics {
      * @param val the value that we will assign to a spot in the array.
      * @return nothing. Because of pass-by-reference, any change to the array will be reflected across our java program.
      */
-    public void setNthElementOfArray(int[] arr, int n, int val){
-        arr=new int[n];
+    public void setNthElementOfArray(int[] arr, int n, int val) {
+        arr[2]=5;
+        arr[0]=2;
+
     }
+         
+    
 
     /**
      * @param n the size of the array we wish to create
