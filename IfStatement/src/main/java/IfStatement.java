@@ -1,3 +1,6 @@
+import static org.junit.Assert.fail;
+
+import javax.swing.plaf.TreeUI;
 
 public class IfStatement {
     /**
@@ -16,7 +19,12 @@ public class IfStatement {
      * @param y second number to be compared.
      * @return x if bool is true. if bool is false, return y.
      */
-    public int ifExample(boolean bool, int x, int y){
-        return 0;
+    public int ifExample (boolean bool, int x, int y) {
+        if (bool == true) {
+            return x;
+        } else  {
+            return y;
+        }  
     }
 }
+
