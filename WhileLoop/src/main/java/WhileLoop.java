@@ -12,7 +12,7 @@ public class WhileLoop {
      * At the 'code here' point, let's write a while loop that runs on the condition
      *     i<end
      * and contains within its block (within its curly braces) the code
-     *     sum = sum + i;
+     *     sum = sum + i; 
      *     i = i + 1;
      *
      * Meaning, so long as as a number i, which we've defined, is less that some number end,
