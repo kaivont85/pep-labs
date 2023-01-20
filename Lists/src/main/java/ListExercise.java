@@ -10,6 +10,7 @@ import java.util.List;
  * become familiar with them over time.
  *
  * You can read about ArrayList, which is the type of list you will most likely be using, here:
+ * 
  * https://www.w3schools.com/java/java_arraylist.asp
  */
 public class ListExercise {
