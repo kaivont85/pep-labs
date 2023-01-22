@@ -23,7 +23,7 @@ public class GroceryDAO {
      * You only need to change the sql String, the rest of the method is already complete.
      * @return a List of all the groceries contained within the database.
      */
-    public List<String> getAllGroceriesList(){
+    public List<String> getAllGroceries(){
         Connection connection = ConnectionUtil.getConnection();
         List<String> groceries = new ArrayList<>();
         try {
