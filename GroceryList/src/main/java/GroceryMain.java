@@ -32,7 +32,7 @@ public class GroceryMain {
                     break;
                 case 2:
                     System.out.println("Here are all the groceries: ");
-                    groceryDAO.getAllGroceries();
+                    groceryDAO.getAllGroceriesList();
                     break;
                 case 3:
                     System.out.println("Goodbye!");

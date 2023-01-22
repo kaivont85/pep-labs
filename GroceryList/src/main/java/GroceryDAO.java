@@ -23,12 +23,12 @@ public class GroceryDAO {
      * You only need to change the sql String, the rest of the method is already complete.
      * @return a List of all the groceries contained within the database.
      */
-    public List<String> getAllGroceries(){
+    public List<String> getAllGroceriesList(){
         Connection connection = ConnectionUtil.getConnection();
         List<String> groceries = new ArrayList<>();
         try {
             //Write SQL logic here
-            String sql = "change me";
+            String sql = "SELECT * FROM grocery;";
             PreparedStatement ps = connection.prepareStatement(sql);
             ResultSet rs = ps.executeQuery();
             while(rs.next()){
@@ -48,7 +48,7 @@ public class GroceryDAO {
         Connection connection = ConnectionUtil.getConnection();
         try {
             //Write SQL logic here
-            String sql = "change me";
+            String sql = "INSERT INTO grocery (grocery_name) VALUES ('"+groceryName+"');";
             PreparedStatement ps = connection.prepareStatement(sql);
             ps.executeUpdate();
         }catch(SQLException e){
