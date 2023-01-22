@@ -12,11 +12,11 @@ public class Contains {
      */
     public boolean arrayContains(int[] arr, int target){
         for (int i = target; i < arr.length; i++) {
-            
-            
         
+           
             return true;
         } 
+        
            return false;
     }
 
